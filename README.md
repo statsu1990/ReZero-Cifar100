@@ -2,14 +2,14 @@
 Unofficial verification of ReZero ResNet on cifar 100 dataset<br>
 
 
-### ReZero
+## ReZero
 ReZero is All You Need: Fast Convergence at Large Depth<br>
 https://arxiv.org/abs/2003.04887<br>
 
 Unofficial pytorch implementation of ReZero in ResNet<br>
 https://github.com/fabio-deep/ReZero-ResNet<br>
 
-### Verification
+## Verification
 Trained PreAct-ResNet with Cifar100 and verified how accuracy and convergence change with and without ReZero.<br>
 
 #### Condition
