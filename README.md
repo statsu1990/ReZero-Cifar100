@@ -1,14 +1,16 @@
 # ReZero-Cifar100
-Non official verification of ReZero ResNet on cifar 100 dataset<br>
+Unofficial verification of ReZero ResNet on cifar 100 dataset<br>
 
 
 ### ReZero
 ReZero is All You Need: Fast Convergence at Large Depth<br>
 https://arxiv.org/abs/2003.04887<br>
 
+Unofficial pytorch implementation of ReZero in ResNet<br>
+https://github.com/fabio-deep/ReZero-ResNet<br>
 
 ### Verification
-Trained PreAct-ResNet with Cifar100 and verified how accuracy and convergence change with and without ReZero.
+Trained PreAct-ResNet with Cifar100 and verified how accuracy and convergence change with and without ReZero.<br>
 
 #### Condition
 - Data <br>
@@ -24,7 +26,7 @@ Trained PreAct-ResNet with Cifar100 and verified how accuracy and convergence ch
   - Data augmentation (random flip, random shift scale rorate) <br>
 
 #### Result
-The accuracy and convergence did not improve.
+The accuracy and convergence did not improve.<br>
 
 ###### PreAct ResNet 18
 ![mrc](https://github.com/statsu1990/ReZero-Cifar100/blob/master/results/loss_preact-resnet18.jpg)<br>
