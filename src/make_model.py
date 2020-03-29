@@ -85,7 +85,7 @@ def make_PreactResnet():
 def make_RezeroPreactResnet():
     DOWNLOAD = False
     
-    CHECKPOINT_PATH = 'checkpoint' #'checkpoint', None
+    CHECKPOINT_PATH = None #'checkpoint', None
     FINE_TURNING = False
     CP = get_checkpoint(CHECKPOINT_PATH) if CHECKPOINT_PATH is not None else None
 
